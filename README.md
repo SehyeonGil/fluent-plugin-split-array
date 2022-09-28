@@ -60,8 +60,16 @@ gem install fluent-plugin-split-array
 ### output
 
 ```
-{'data' => 'Log entry 1'}
-{'data' => 'Log entry 2'}
+{
+  "requestId":"034f",
+  "timestamp":1578090901599,
+  "data":"Log entry 1"
+}
+{
+  "requestId":"034f",
+  "timestamp":1578090901599,
+  "data":"Log entry 2"
+}
 ```
 
 ## Example 3
